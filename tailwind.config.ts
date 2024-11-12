@@ -12,6 +12,11 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        bellefair: "var(--font-bellefair)",
+        barlow: "var(--font-barlow)",
+        barlowCondensed: "var(--font-barlow-condensed)",
+      },
     },
   },
   plugins: [],
