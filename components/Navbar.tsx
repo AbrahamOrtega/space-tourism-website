@@ -5,7 +5,7 @@ import { useRouter } from "next/router";
 
 export default function Navbar() {
   const router = useRouter();
-  const [path, setPath] = useState(router.pathname.split("/")[1]);
+  const path = router.pathname.split("/")[1];
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   const handleMobileMenu = () => {
