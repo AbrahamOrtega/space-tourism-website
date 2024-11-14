@@ -1,4 +1,5 @@
 import Navbar from "@/components/Navbar";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -21,9 +22,12 @@ export default function Home() {
             </p>
           </div>
           <div className="flex w-full lg:w-1/2 lg:justify-end justify-center">
-            <button className="bg-white w-40 h-40 lg:w-64 lg:h-64 rounded-full text-[32px] font-bellefair hover:outline hover:outline-[32px] lg:hover:outline-[64px] transition-all duration-300 outline-white/10">
+            <Link
+              href={"/destination"}
+              className="flex justify-center items-center bg-white w-40 h-40 lg:w-64 lg:h-64 rounded-full text-[32px] font-bellefair hover:outline hover:outline-[32px] lg:hover:outline-[64px] transition-all duration-300 outline-white/10"
+            >
               Explore
-            </button>
+            </Link>
           </div>
         </div>
       </div>
