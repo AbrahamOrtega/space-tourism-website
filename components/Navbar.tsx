@@ -13,9 +13,9 @@ export default function Navbar() {
   };
 
   return (
-    <div className="flex items-center justify-between py-8 lg:py-10 px-10 lg:pl-16 relative">
+    <div className="flex items-center justify-between py-8 lg:py-10 px-10 lg:pl-16 relative z-50">
       <div
-        className="hidden 2xl:flex absolute w-[48%] left-[10%] border-b z-10"
+        className="hidden 2xl:flex absolute w-[48%] left-[10%] border-b"
         style={{ borderColor: "rgba(255, 255, 255, 0.25)" }}
       />
       <div className="rounded-full">

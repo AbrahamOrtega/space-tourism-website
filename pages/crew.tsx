@@ -13,7 +13,7 @@ export default function Crew() {
 
       <div className="flex flex-col w-full h-full flex-grow px-8 lg:px-40">
         <div className="flex text-white font-barlowCondensed text-[28px] gap-x-[24px] tracking-[4px]">
-          <span className="font-bold opacity-25 tracking-[15%] lg:tracking-[5px]">
+          <span className="font-bold text-white/25 tracking-[15%] lg:tracking-[5px]">
             02
           </span>
           <h3>MEET YOUR CREW</h3>
