@@ -42,7 +42,7 @@ export default function Crew() {
                   selectedCrew === crewMember
                     ? "bg-white"
                     : "bg-[#979797] opacity-20"
-                } w-4 h-4 rounded-full`}
+                } w-4 h-4 rounded-full hover:bg-[#979797] hover:opacity-50`}
                 onClick={() => setSelectedCrew(crewMember)}
               ></button>
             ))}

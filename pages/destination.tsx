@@ -43,7 +43,7 @@ export default function Destination() {
                     className={`py-3 ${
                       selectedDestination === destination &&
                       "border-b-4 border-white text-[14px] lg:text-[16px]"
-                    }`}
+                    } hover:border-b-4 hover:border-white/50`}
                     onClick={() => handleDestination(destination)}
                   >
                     {destination.name.toUpperCase()}

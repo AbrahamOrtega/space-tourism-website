@@ -38,7 +38,9 @@ export default function Navbar() {
       >
         <Link
           href="/"
-          className={`${path === "" && "border-b-2"} font-barlow py-9 `}
+          className={`${
+            path === "" && "border-b-2 border-white"
+          } font-barlow py-9 hover:border-b-2 hover:border-white/50`}
         >
           <span className="font-barlowCondensed font-bold tracking-widest">
             00
@@ -48,8 +50,8 @@ export default function Navbar() {
         <Link
           href="/destination"
           className={`${
-            path === "destination" && "border-b-2"
-          } font-barlow py-9 `}
+            path === "destination" && "border-b-2 border-white"
+          } font-barlow py-9 hover:border-b-2 hover:border-white/50`}
         >
           <span className="font-barlowCondensed font-bold tracking-widest">
             01
@@ -58,7 +60,9 @@ export default function Navbar() {
         </Link>
         <Link
           href="/crew"
-          className={`${path === "crew" && "border-b-2"} font-barlow py-9 `}
+          className={`${
+            path === "crew" && "border-b-2 border-white"
+          } font-barlow py-9 hover:border-b-2 hover:border-white/50`}
         >
           <span className="font-barlowCondensed font-bold tracking-widest">
             02
@@ -68,8 +72,8 @@ export default function Navbar() {
         <Link
           href="/technology"
           className={`${
-            path === "technology" && "border-b-2"
-          } font-barlow py-9 `}
+            path === "technology" && "border-b-2 border-white"
+          } font-barlow py-9 hover:border-b-2 hover:border-white/50`}
         >
           <span className="font-barlowCondensed font-bold tracking-widest">
             03

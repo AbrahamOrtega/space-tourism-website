@@ -49,7 +49,7 @@ export default function Technology() {
                     selectedTechnology === tech
                       ? "bg-white border-white text-black"
                       : "border-white/25 text-white"
-                  } w-10 h-10 lg:w-20 lg:h-20 border rounded-full font-bellefair text-[18px] lg:text-[32px]`}
+                  } w-10 h-10 lg:w-20 lg:h-20 border rounded-full font-bellefair text-[18px] lg:text-[32px] hover:border-white`}
                   onClick={() => setSelectedTechnology(tech)}
                 >
                   {index + 1}
