@@ -26,7 +26,7 @@ export default function Home() {
               href={"/destination"}
               className="flex justify-center items-center bg-white w-40 h-40 lg:w-64 lg:h-64 rounded-full text-[32px] font-bellefair hover:outline hover:outline-[32px] lg:hover:outline-[64px] transition-all duration-300 outline-white/10"
             >
-              Explore
+              EXPLORE
             </Link>
           </div>
         </div>
